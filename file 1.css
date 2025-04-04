@@ -1,0 +1,73 @@
+
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #3B2F2F;
+    color: #fff;
+}
+
+header {
+    background-color: #1A1A1D;
+    color: #f5f5f5;
+    text-align: center;
+    padding: 1.5em;
+    font-size: 28px;
+    font-weight: bold;
+    letter-spacing: 1.5px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+}
+
+.hero {
+    text-align: center;
+    background: url('https://source.unsplash.com/1600x900/?wildlife') no-repeat center center/cover;
+    color: white;
+    padding: 120px 30px;
+    font-size: 22px;
+    font-weight: 600;
+    text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.6);
+}
+
+.gallery {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    padding: 40px;
+}
+
+.gallery img {
+    width: 220px;
+    height: 320px;
+    border-radius: 12px;
+    transition: transform 0.3s, box-shadow 0.3s;
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.4);
+}
+
+.gallery img:hover {
+    transform: scale(1.05);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.5);
+}
+
+.links {
+    text-align: center;
+    margin: 30px;
+}
+
+.links a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 18px;
+    font-weight: bold;
+    margin: 15px;
+    padding: 12px 18px;
+    border: 2px solid #f5f5f5;
+    border-radius: 8px;
+    transition: all 0.3s;
+    background: transparent;
+}
+
+.links a:hover {
+    background: #f5f5f5;
+    color: #1A1A1D;
+}
